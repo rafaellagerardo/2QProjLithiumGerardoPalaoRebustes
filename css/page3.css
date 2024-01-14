@@ -6,7 +6,8 @@ header{
 body{
     margin: 30px;
     padding: 0;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 nav{
     width: 100%;
@@ -31,29 +32,51 @@ h1{
 a{
     color: white;
 }
+a:link {
+    background-color: lightgrey;
+    text-decoration: none;
+    padding: 1px;
+}
+a:visited {
+    background-color:darkgrey;
+}
+a:hover {
+    background-color:
+    black;
+}
+a:active {
+    background-color:
+    white;
+    }
 .img1{
     float: left;
     border: 2px solid black;
+    margin-right: 10px;
 }
-.para1,.para2 .para3{
+.para1,.para2 .para3 .para4{
     overflow: auto;
     padding-bottom: 30px;
 }
 .img2{
     float: right;
     border: 2px solid black;
+    margin-left: 10px;
 }
 .img3{
     float: left;
     border: 2px solid black;
+    margin-right: 10px;
 }
 .img4{
     float:right;
     border:2px solid black;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .para2{
     display: flex;
     align-items: center;
+    font-size: larger;
 }
 .img5{
     border: 2px solid black;
@@ -62,6 +85,7 @@ a{
     align-items: center;
     display: flex;
     justify-content: center;
+    font-size: x-large;
 }
 footer{
     text-align: center;
@@ -70,4 +94,51 @@ footer{
     color: white;
     min-height: 1svh;
     margin-top: 30px;
+}
+.header{
+    display: flex;
+}
+.logo{
+    text-align: center;
+    width: 300px;
+    height:auto;
+}
+.para4{
+    font-size: x-large;
+}
+.img6{
+    border: 2px solid black;  
+    width: 650px;
+    height: auto;  
+    margin-left: 20px;
+}
+.img7{
+    border: 2px solid black; 
+    width: 650px;
+    height: auto;  
+    margin-left: 20px;
+}
+.para1{
+    font-size: x-large;
+}
+.sprite{
+    background: url('../images/facebook.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 32px;
+    }
+    .sprite:hover {
+      filter: grayscale(100%)
+    }
+.socials{
+    display: inline;
+    display: flex;
+            justify-content: center;
+            margin-top: 10px;
+    
+}
+.socials ul li{
+    list-style-type: none;
+}
+h2{
+    padding-bottom: 100px;
 }

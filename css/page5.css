@@ -149,3 +149,19 @@ h2{
     width: 200px;
     height:auto;
 }
+.compile {
+    display: flex;
+}
+.compile img {
+    width: 25%; /* Adjust the width as needed */
+    height: auto;
+    margin: 5px; /* Adjust margin as needed */
+}
+.text-under-image2 {
+    border: 5px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 90%;
+    text-align: center;
+    }
